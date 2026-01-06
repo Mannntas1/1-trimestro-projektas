@@ -1,7 +1,5 @@
 import random
 
-issukiai = ["sudetis", "atimtis", "daugyba"]
-
 def skaiciai():
     global skaicius1_sudetis
     skaicius1_sudetis = random.randint(1, 100)
@@ -66,9 +64,5 @@ while True:
     pasirinkimas()
     if input("Zaisti toliau? (taip/ne): ") != "taip":
         break
-
-
-
-
 
 
